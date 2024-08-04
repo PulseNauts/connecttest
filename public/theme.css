@@ -1,0 +1,9 @@
+:root {
+  --primary: #5f1a87;
+  --primary-text: #ffffff; /* White for better contrast */
+  --secondary: #731356;
+  --secondary-text: #ffd700; /* Gold color for better contrast */
+  --accent: #360a3a;
+  --accent-text: #ffd700; /* Gold color for accents */
+  --accent-text2: #a346d9; /* Light purple for accents */
+}
