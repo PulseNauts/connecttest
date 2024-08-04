@@ -1,10 +1,10 @@
-// src/connectors.js
 import Web3 from 'web3';
 
 const PULSECHAIN_RPC_URL = 'https://rpc.pulsechain.com';
 
 const getWeb3 = async () => {
   console.log('Checking for Ethereum provider...');
+  
   if (window.ethereum) {
     console.log('Ethereum provider detected.');
     const web3 = new Web3(window.ethereum);
