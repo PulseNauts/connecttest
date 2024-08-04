@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x98252040A63503b6C0977C9CFEBaD445c987d6E0",
+  "SCAN_LINK": "https://scan.pulsechain.com/address/0x98252040A63503b6C0977C9CFEBaD445c987d6E0",
+  "NETWORK": {
+    "NAME": "Pulse",
+    "SYMBOL": "pulse",
+    "ID": 369
+  },
+  "NFT_NAME": "Baby Ape Pulse Club",
+  "SYMBOL": "BAPC",
+  "MAX_SUPPLY": 5500,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 1000000,
+  "MARKETPLACE": "",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": true
+}

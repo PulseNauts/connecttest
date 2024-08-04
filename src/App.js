@@ -33,7 +33,7 @@ function App() {
     try {
       const supply = await contractInstance.methods.totalSupply().call();
       console.log('Total supply:', supply);
-      setTotalSupply(supply);
+      setTotalSupply(Number(supply)); // Convert BigInt to number;
     } catch (error) {
       console.error('Failed to fetch total supply:', error);
     }
@@ -159,7 +159,7 @@ function App() {
                 textShadow: "4px 4px 8px rgba(0, 0, 0, .8)",
               }}
             >
-              {totalSupply || 0} / {CONFIG.MAX_SUPPLY}
+              {totalSupply} / {CONFIG.MAX_SUPPLY}
             </p>
             <div className="SpacerLarge" />
             <p
@@ -315,7 +315,7 @@ function App() {
                 textShadow: "4px 4px 8px rgba(0, 0, 0, .8)",
               }}
             >
-              The Baby Ape Pulse Club (BAPC) is an NFT collection on PulseChain. These NFTs are a free drop for all Pulse Ape Yacht Club (PAYC) holders, with a limit of 10 NFTs per wallet/holder. You only need to cover the gas fees.
+              The Baby Ape Pulse Club (BAPC) is an NFT collection on PulseChain. These NFTs are a free drop for all Pulse Ape Yacht Club (PAYC) holders, with a limit of 20 NFTs per wallet/holder. You only need to cover the gas fees.
             </p>
           </div>
           <div className="ContentBox">
